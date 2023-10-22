@@ -37,7 +37,7 @@ def recommend_recipes(input_ingredients, k=5):
                 'recipe_id': recipe_ids[idx],
                 'recipe_name': recipe_names[idx],
                 'cooking_instructions': cooking_instructions[idx],
-                'Net Price': net_price[idx],
+                'net_price': net_price[idx],
                 'image_path': image_paths[idx]  # Include the image path in the recommendation
             })
         if len(recommended_recipes) >= k:
